@@ -30,9 +30,9 @@ public class SearchReplace {
                 Matcher m = pattern1.matcher(line);
                 if(m.find()){
                     String newstart = replaceTag(m.group(1), targetTag, replaceTag);
-                    newstart = replaceAttribute(replaceTag, attribute, value);
+                    newstart = replaceAttribute(newstart, attribute, value);
                     String newEnd = replaceTag(m.group(3), targetTag, replaceTag);
-                    String newLine = "The newly created line goes here";
+                    String newLine = newstart + m.group(2) + newEnd;
                     System.out.printf("%3d %s\n", c, newLine);
                 }
                 
