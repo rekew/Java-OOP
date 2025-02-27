@@ -3,7 +3,7 @@ package lab4.detailed1.com.example.domain;
 public class EmployeeTest {
     public static void main(String[] args){
         Engineer eng = new Engineer(101, "Jane Smith", "012-34-5678", 120345.27);
-        Manager man = new Manager(207, "Barbara Johnson", "054-12-2367", 109501.36, "US Marketing");
+        Employee man = new Manager(207, "Barbara Johnson", "054-12-2367", 109501.36, "US Marketing");
         Admin adm = new Admin(304, "Bill Monroe", "108-23-6509", 75002.34);
         Director dir = new Director(12, "Susan Wheeler", "099-45-2340", 120567.36, "Global Marketing", 1000000.00);
 
