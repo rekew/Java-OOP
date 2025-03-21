@@ -1,7 +1,7 @@
 package lab6.AbstractBanking;
 
 import java.util.Date;
-
+ 
 public class AbstractBanking {
     public static void main(String[] args) {
         Bank bank = new Bank();

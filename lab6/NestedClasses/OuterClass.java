@@ -13,7 +13,7 @@ public class OuterClass {
     // 2. Статический вложенный (Static Nested) класс
     static class StaticNestedClass {
         void display() {
-            System.out.println("Static Nested Class.");
+            System.out.println("Static Nested Class." );
         }
     }
 
@@ -41,7 +41,7 @@ public class OuterClass {
         // 4. Локальный (Local) класс
         class LocalClass1 {
             void show() {
-                System.out.println("Local Class 1");
+                System.out.println("Local Class 1" );
             }
         }
         LocalClass1 local1 = new LocalClass1();
