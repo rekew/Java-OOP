@@ -41,6 +41,17 @@ public class PetMain {
         a.eat();
         a.walk();
 
+        //dog
+        Dog d = new Dog();
+        d.setName("Barsik");
+        d.eat();
+        d.walk();
+        d.play();
+
+        a = new Dog();
+        a.eat();
+        a.walk();
+
         // Test playWithAnimal method
         playWithAnimal(s);
         playWithAnimal(c);

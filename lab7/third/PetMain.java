@@ -18,6 +18,14 @@ public class PetMain {
         f.play();
         System.out.println("Fish name: " + f.getName());
 
+        Dog d = new Dog("Barsik");
+        d.eat();
+        d.walk();
+        d.play();
+
+        d.setName("Mr. Barsik");
+        System.out.println("Dog's name: " + d.getName());
+
         System.out.println("\n--- Testing walk with references ---");
         Ambulatory a1 = new Spider();
         Ambulatory a2 = new Cat();
