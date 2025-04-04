@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ThreadInterruptedMain {
+
     public static void main(String[] args) {
         // Создаём объект Counter и поток
         Runnable r = new Counter();
@@ -13,7 +14,10 @@ public class ThreadInterruptedMain {
 
         // Ждём нажатия Enter
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            br.readLine(); // Ждёт ввода
+            String input =  "";
+            while(!("8".equals(input))){
+                input = br.readLine();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -7,7 +7,7 @@ public class Store {
 
     private Deque<Shirt> shirts = new LinkedList<>();
     //singleton
-    private static Store instance = new Store();
+    private sta tic Store instance = new Store();
     //singleton
 
     private Store() {
