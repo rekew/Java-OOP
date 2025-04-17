@@ -23,7 +23,8 @@ public class Main {
 
         } catch (DAOException e) {
             e.printStackTrace();
-        } finally {
+        } 
+        finally {
             try {
                 employeeDAO.close();
             } catch (DAOException e) {
@@ -32,3 +33,4 @@ public class Main {
         }
     }
 }
+
